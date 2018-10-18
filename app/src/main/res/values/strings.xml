@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple List Adapter</string>
+    <array name="static_list">
+        <item>Select Name</item>
+        <item >Balaji</item>
+        <item >Kiran</item>
+        <item >Vimal</item>
+        <item >Vasu</item>
+        <item >Srinu</item>
+    </array>
+
+</resources>
