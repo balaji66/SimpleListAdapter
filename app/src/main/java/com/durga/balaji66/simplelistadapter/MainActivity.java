@@ -12,8 +12,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Declaring listView
         ListView listView = findViewById(R.id.listView);
+        //Declaring Spinner
         Spinner spinner = findViewById(R.id.spinner);
+
         ArrayAdapter adapter =ArrayAdapter.createFromResource(this,R.array.static_list,android.R.layout.simple_list_item_1);
         listView.setAdapter(adapter);
         spinner.setAdapter(adapter);
